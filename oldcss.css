@@ -1,0 +1,276 @@
+h1 {
+  font-family: 'Londrina Shadow', cursive ;
+  font-weight: 600;
+  font-size:25px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 200px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+
+
+h5 {
+  font-size: 25px;
+  text-align: center;
+  font-family:'Rubik Mono One', sans-serif;
+  color: black;
+}
+
+
+
+.home {
+  padding: 20px;
+  background: orange;
+}
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 125px;
+}
+
+
+#header {
+  background: orange no-repeat center;
+  display: table;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family:'Rubik Mono One', sans-serif;
+}
+
+#splash h1,
+#splash h2,
+#splash h3 {
+    color: #c4d7f1;
+    /*off-white*/
+}
+
+#splash {
+    background: linear-gradient( rgb(255,127,80), rgb(255,99,71));
+    background: cover;
+    text-align: center;
+    margin-right:45px;
+}
+
+.info{
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 25px;
+  color: black;
+  background-color: orange;
+  padding: 20px;
+}
+
+.contact {
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/image-9.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding:10px;
+    height: 180px;
+}
+.contact p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+  
+}
+/* small*/
+
+@media(min-width:768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 20px;
+  }
+ .carousel-inner .item img {
+    height: 650px;
+  }
+  .carousel-caption {
+    color: black;
+    center: 35%;
+  }
+
+}
+
+
+/* medium+ */
+
+@media(min-width:992px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .carousel-inner .item img {
+    height: 790px;
+  }
+  .carousel-caption {
+    color: white;
+    center: 35%;
+  }
+ 
+}
+
+
+/* large+ */
+
+@media(min-width:1200px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 40px;
+  }
+    .carousel-inner .item img {
+    height: 1270px;
+    opacity:0.5;
+  }
+  .carousel-caption {
+    color: black;
+    center: 32%;
+  } 
+  #guide1{
+    font-size: 24;
+  }
+}
+
+.landing-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:  url('images/image-9.jpg') no-repeat center;
+    background-size: cover;
+  
+}
+
+
+.carousel-inner .item img {
+  height: 600px;
+  width:1200px;
+}
+
+.carousel-caption {
+  color: black;
+  top: 30%;
+}
+
+.carousel-caption #title {
+  color: black;
+
+  font-family:'Rubik Mono One', sans-serif ;
+  font-size: 20px;
+}
+
+ h4{
+    color: orange;
+    font-family:'Rubik Mono One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.row, .row1, .row2, .row3{
+font-family:'Londrina Shadow', cursive ;
+color: white;
+font-size: 20px;
+}
+.container {
+    font-family:'Londrina Shadow', cursive;
+    font-size: 20px;
+    color: black;
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 40px;
+
+    }
+    .nav {
+        size: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    #guide1{
+      font-size: 25;
+    }
+}
+ .item{
+   background-color: white;
+   
+ }
+ #text-box{
+   background-color: black;
+   border: white;
+   
+ }
+ #guide1 {
+
+    font-family: 'Balloo',cursive;
+    color: black;
+    font-size:25px;
+}
+#vtitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+#rtitle {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.carousel-inner .item img {
+    height: 1270px;
+    opacity:0.5;
+  }
